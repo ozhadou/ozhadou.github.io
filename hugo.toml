@@ -4,6 +4,10 @@ theme = "ozhadou"
 pagination.pagerSize = 10
 summaryLength = 70
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
   description = "OzHadou - Bringing fighting gamers together since 2001"
   copyright = "OzHadou"
