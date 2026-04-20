@@ -1,0 +1,621 @@
+/* ==========================================================================
+   OzHadou 2015 — Hugo Theme Stylesheet (Light Mode)
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Base & Reset
+   -------------------------------------------------------------------------- */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover,
+a:focus {
+  color: #666;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #111;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.3em; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+ul, ol {
+  padding-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+/* --------------------------------------------------------------------------
+   Layout
+   -------------------------------------------------------------------------- */
+
+.content-container {
+  margin-top: 80px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  
+  flex: 1 0 auto;
+}
+
+.row {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+/* --------------------------------------------------------------------------
+   Header & Navigation
+   -------------------------------------------------------------------------- */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #fff;
+  border-bottom: 3px solid #666;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.main-nav {
+  width: 100%;
+}
+
+.top-bar {
+  background-color: #fff;
+  padding: 0 1rem;
+  transition: padding 0.3s ease;
+}
+
+.top-bar.small .logo img {
+  height: 36px;
+}
+
+.top-bar-left,
+.top-bar-right {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 1.5rem;
+}
+
+.logo-img {
+  height: 48px;
+  width: auto;
+  display: inline-block;
+  transition: height 0.3s ease;
+}
+
+.top-bar .menu > li > a {
+  color: #444;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 1rem 0.85rem;
+  display: block;
+  transition: color 0.2s ease;
+}
+
+.top-bar .menu > li > a:hover,
+.top-bar .menu > li.active > a {
+  color: #333;
+  text-decoration: none;
+}
+
+.title-bar {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 1rem;
+  border-bottom: 3px solid #666;
+}
+
+.title-bar-title a img {
+  height: 36px;
+  width: auto;
+}
+
+.hamburger-icon {
+  display: none;
+}
+
+/* Social icons */
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+
+.social-icon svg {
+  fill: #aaa;
+  transition: fill 0.2s ease;
+  display: block;
+}
+
+.social-icon:hover svg {
+  fill: #666;
+}
+
+/* Search form */
+.search-form {
+  margin-left: 0.75rem;
+}
+
+.search-form input[type="search"] {
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #333;
+  padding: 0.35rem 0.75rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  width: 160px;
+  outline: none;
+  transition: border-color 0.2s ease, width 0.3s ease;
+}
+
+.search-form input[type="search"]:focus {
+  border-color: #666;
+  width: 220px;
+}
+
+/* --------------------------------------------------------------------------
+   Posts / Articles
+   -------------------------------------------------------------------------- */
+
+article.post {
+  background: #fff;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  border: 1px solid #e8e8e8;
+  overflow: hidden;
+}
+
+article.post > a img {
+  float: left;
+  margin: 0 1rem 1rem 0;
+  border: 2px solid #eee;
+  transition: border-color 0.2s ease;
+}
+
+article.post > a:hover img {
+  border-color: #666;
+}
+
+.post-title a {
+  color: #111;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.post-title a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Title region tag e.g. [NSW] */
+.title-tag {
+  display: inline-block;
+  background: #666;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 2px;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+
+.post-date {
+  font-size: 0.78rem;
+  color: #999;
+  margin-bottom: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.post-content {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 0.75rem;
+  clear: both;
+}
+
+.post-content p:last-child {
+  margin-bottom: 0;
+}
+
+.post-metadata {
+  font-size: 0.78rem;
+  color: #999;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #f0f0f0;
+}
+
+.post-metadata a {
+  color: #777;
+}
+
+.post-metadata a:hover {
+  color: #333;
+}
+
+.post-categories {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.4rem;
+}
+
+.post-tag {
+  display: inline-block;
+}
+
+.post-tag a {
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #777;
+  font-size: 0.72rem;
+  padding: 2px 8px;
+  border-radius: 2px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.post-tag a:hover {
+  background: #666;
+  border-color: #666;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* --------------------------------------------------------------------------
+   Single Post
+   -------------------------------------------------------------------------- */
+
+article.post h1 a {
+  color: #111;
+  font-size: 1.8rem;
+}
+
+article.post h1 a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+/* --------------------------------------------------------------------------
+   Static Pages
+   -------------------------------------------------------------------------- */
+
+article.page {
+  background: #fff;
+  padding: 1.5rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+}
+
+article.page h1 {
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #666;
+}
+
+/* --------------------------------------------------------------------------
+   Archive / Taxonomy
+   -------------------------------------------------------------------------- */
+
+.archive-title {
+  color: #111;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #666;
+}
+
+.taxonomy-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.taxonomy-list li {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.taxonomy-list a {
+  color: #333;
+  font-weight: 600;
+}
+
+.taxonomy-list a:hover {
+  color: #333;
+}
+
+.term-count {
+  color: #aaa;
+  font-size: 0.85em;
+}
+
+.tagcloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tag-link {
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #777;
+  font-size: 0.78rem;
+  padding: 3px 10px;
+  border-radius: 2px;
+  transition: background 0.2s ease;
+}
+
+.tag-link:hover {
+  background: #666;
+  border-color: #666;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* --------------------------------------------------------------------------
+   Sidebar
+   -------------------------------------------------------------------------- */
+
+.sidebar {
+  padding: 0 0 1.5rem 2rem;
+}
+
+.widget {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.widget-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #333;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #eee;
+}
+
+.widget ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.widget ul li {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #f5f5f5;
+  font-size: 0.85rem;
+}
+
+.widget ul li a {
+  color: #555;
+}
+
+.widget ul li a:hover {
+  color: #333;
+}
+
+/* --------------------------------------------------------------------------
+   Pagination
+   -------------------------------------------------------------------------- */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 2rem 0 1rem;
+  flex-wrap: wrap;
+}
+
+.pagination li {
+  list-style: none;
+}
+
+.pagination li a,
+.pagination li span {
+  display: inline-block;
+  padding: 0.4rem 0.75rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  color: #555;
+  font-size: 0.85rem;
+  border-radius: 2px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.pagination li a:hover {
+  background: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.pagination li.active span,
+.pagination li.active a {
+  background: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+/* --------------------------------------------------------------------------
+   Footer
+   -------------------------------------------------------------------------- */
+
+.footer {
+  background-color: #222;
+  border-top: 3px solid #007bff;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-top: 2rem;
+  
+  flex-shrink: 0;
+}
+
+.copyright p {
+  color: #888;
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+}
+
+.copyright a {
+  color: #aaa;
+}
+
+.copyright a:hover {
+  color: #e8001c;
+}
+
+/* --------------------------------------------------------------------------
+   Utility
+   -------------------------------------------------------------------------- */
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* --------------------------------------------------------------------------
+   Media Queries
+   -------------------------------------------------------------------------- */
+
+@media screen and (max-width: 640px) {
+  .content-container {
+    margin-top: 60px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .top-bar {
+    display: none;
+  }
+
+  article.post > a img {
+    float: none;
+    margin: 0 0 1rem 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .post-title a {
+    font-size: 1.1rem;
+  }
+
+  .search-form input[type="search"] {
+    width: 120px;
+  }
+
+  .sidebar {
+    padding: 1.5rem 0;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+  .content-container {
+    margin-top: 70px;
+  }
+
+  .logo-img {
+    height: 40px;
+  }
+}
+
+@media print {
+  header, .sidebar, .footer, .pagination, .social-icons, .search-form {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  .content-container {
+    margin-top: 0 !important;
+  }
+}
+
+/* Custom menu icon */
+.menu-icon-img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}

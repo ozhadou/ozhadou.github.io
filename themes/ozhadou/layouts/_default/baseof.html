@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <link href="/img/icons/favicon.ico" rel="shortcut icon">
+  <link href="/img/icons/touch.png" rel="apple-touch-icon-precomposed">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="OzHadou - Bringing fighting gamers together since 2001">
+
+  <script src="{{ "js/lib/jquery.min.js" | relURL }}"></script>
+  <script src="{{ "js/lib/jquery.min.map" | relURL }}"></script>
+  <script src="{{ "js/lib/conditionizr-4.3.0.min.js" | relURL }}"></script>
+  <script src="{{ "js/lib/foundation.min.js" | relURL }}"></script>
+  <script src="{{ "js/lib/modernizr-2.7.1.min.js" | relURL }}"></script>
+  <script src="{{ "js/lib/motion-ui.min.js" | relURL }}"></script>
+
+  <script src="{{ "js/lib/script.js" | relURL }}"></script>
+  <link rel="stylesheet" href="{{ "style.css" | relURL }}">
+
+  <!-- Raleway font -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body class="ozhadou-theme">
+  {{ partial "header.html" . }}
+  <div class="content-container row medium-9 large-7 columns">
+    <main role="main">
+      <section>
+        {{ block "main" . }}{{ end }}
+      </section>
+    </main>
+  </div>
+  {{ partial "footer.html" . }}
+</body>
+</html>

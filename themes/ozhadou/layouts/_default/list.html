@@ -1,0 +1,21 @@
+{{ define "main" }}
+  {{ range .Paginator.Pages }}
+    <article
+      class="post-11052 tribe_events type-tribe_events status-publish hentry"
+    >
+      <h2 class="post-title">
+        <a
+          href="{{ .RelPermalink }}"
+          title="{{ .Title }}"
+          ><div class="title-tag">{{ .Title }}</a
+        >
+      </h2>
+      <div class="post-date">{{ .Date.Format "2 Jan 2006" }}</div>
+      <div class="post-content">
+        {{ .Summary }}
+      </div>
+    </article>
+  {{ end }}
+  <!-- pagination -->
+  {{ template "_internal/pagination.html" . }}
+{{ end }}

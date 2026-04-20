@@ -1,0 +1,29 @@
+baseURL = "/"
+title = "OzHadou"
+theme = "ozhadou"
+pagination.pagerSize = 10
+summaryLength = 70
+
+[params]
+  description = "OzHadou - Bringing fighting gamers together since 2001"
+  copyright = "OzHadou"
+
+  # Social links
+  facebook  = "https://www.facebook.com/ozhadou"
+  twitter   = "https://www.twitter.com/ozhadou"
+  youtube   = "https://www.youtube.com/ozhadou"
+  discord   = "https://discord.gg/JNEa85mDyb"
+
+[menu]
+  [[menu.main]]
+    name   = "News"
+    url    = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name   = "Events"
+    url    = "/events/"
+    weight = 2
+  [[menu.main]]
+    name   = "About"
+    url    = "/about/"
+    weight = 3
