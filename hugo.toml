@@ -17,6 +17,7 @@ summaryLength = 70
   twitter   = "https://www.twitter.com/ozhadou"
   youtube   = "https://www.youtube.com/ozhadou"
   discord   = "https://discord.gg/JNEa85mDyb"
+  email     = "mailto:ozhadou@gmail.com"
 
 [menu]
   [[menu.main]]
