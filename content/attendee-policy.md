@@ -12,7 +12,7 @@ Please note that this document may be updated without prior notice. It is your r
 Attendees of all OzHadou events are expected to treat everyone with respect. Discrimination towards any individual or group and any behaviour deemed inappropriate will not be tolerated. Examples of such behaviour may include, but is not limited to, harassment, bullying, invasion of personal space, physical violence and offensive or derogatory remarks. Put simply, treat others how you would like to be treated yourself.
 
 #### Conduct outside of OzHadou events
-Behaviour in spaces outside of OzHadou events is also factored into whether an individual is able to attend OzHadou events. This includes online spaces; any behaviour that is not acceptable in-person is also not acceptable online.
+Behaviour in spaces outside of OzHadou events is also factored into whether an individual is able to attend OzHadou events. This includes online spaces; any behaviour that is not acceptable in-person is also not acceptable online. If you witness such behaviour, please report it to team as described in the following section.
 
 #### Reporting incidents
 All attendees have the right to feel comfortable at our events. If at any point in time you feel uncomfortable during an event, do not hesitate to speak to a tournament organiser so we can remedy the issue.
