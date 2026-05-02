@@ -9,7 +9,7 @@ By attending OzHadou events, you agree to the following terms. These are set in 
 Please note that this document may be updated without prior notice. It is your responsibility to make sure you are up to date with all information provided here. All updates will be listed, described and dated in the [Revision History](#revision-history) at the bottom of the page.
 
 ### Code of Conduct
-Attendees of all OzHadou events are expected to treat everyone with respect. Discrimination towards any individual or group and any behaviour deemed inappropriate will not be tolerated. Examples of such behaviour may include, but is not limited to, harassment, bullying, invasion of personal space, physical violence and offensive or derogatory remarks. Put simply, treat others how you would like to be treated yourself.
+Attendees of all OzHadou events are expected to treat everyone with respect. Discrimination towards any individual or group and any behaviour deemed inappropriate will not be tolerated. Examples of such behaviour may include, but are not limited to, harassment, bullying, invasion of personal space, physical violence and offensive or derogatory remarks. Put simply, treat others how you would like to be treated yourself.
 
 #### Conduct outside of OzHadou events
 Behaviour in spaces outside of OzHadou events is also factored into whether an individual is able to attend OzHadou events. This includes online spaces; any behaviour that is not acceptable in-person is also not acceptable online. If you witness such behaviour, please report it to the team as described in the next section.
