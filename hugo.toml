@@ -26,9 +26,13 @@ summaryLength = 70
     weight = 1
   [[menu.main]]
     name   = "Events"
-    url    = "/events/"
+    url    = "/events"
     weight = 2
   [[menu.main]]
-    name   = "About"
-    url    = "/about/"
+    name   = "Attendee Policy"
+    url    = "/attendee-policy"
     weight = 3
+  [[menu.main]]
+    name   = "About"
+    url    = "/about"
+    weight = 4
