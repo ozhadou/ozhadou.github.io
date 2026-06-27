@@ -14,8 +14,8 @@ Our monthly event **York Street Battles** runs on the 2nd Saturday of every mont
 | York Street Battles #115 | Mar 07 *** |  [🔗](https://start.gg/ysb115/details) |
 | York Street Battles #116 | Apr 11     |  [🔗](https://start.gg/ysb116/details) |
 | York Street Battles #117 | May 09     |  [🔗](https://start.gg/ysb117/details) |
-| York Street Battles #118 | Jun 13     |   |
-| York Street Battles #119 | Jul 04 *** |   |
+| York Street Battles #118 | Jun 13     |  [🔗](https://start.gg/ysb118/details) |
+| York Street Battles #119 | Jul 04 *** |  [🔗](https://start.gg/ysb119/details) |
 | York Street Battles #120 | Aug 08     |   |
 | York Street Battles #121 | Sep 05 *** |   |
 | York Street Battles #122 | Oct 10     |   |
