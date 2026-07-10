@@ -5,9 +5,11 @@ draft = false
 +++
 
 ## 2026 Dates
-Our annual major tournament OzHadou Nationals 20 is happening on September 11-13th
+Our annual major tournament OzHadou Nationals 20 is happening September 11-13th!
 
 Register at [start.gg/ohn20](https://start.gg/ohn20/details)
+
+![ohn20](https://i.imgur.com/OXrvTPG.png)
 
 ---
 
