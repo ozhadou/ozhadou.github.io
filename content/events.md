@@ -5,6 +5,12 @@ draft = false
 +++
 
 ## 2026 Dates
+Our annual major tournament OzHadou Nationals 20 is happening on September 11-13th
+
+Register at [start.gg/ohn20](https://start.gg/ohn20/details)
+
+---
+
 Our monthly event **York Street Battles** runs on the 2nd Saturday of every month. Exceptions are marked with asterisks.
 
 |                            | Date       |  URL |
