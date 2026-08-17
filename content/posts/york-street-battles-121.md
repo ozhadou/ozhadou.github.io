@@ -1,4 +1,8 @@
-+++ title = 'York Street Battles #121' date = 2026-08-17T21:00:00+10:00 draft = false +++
++++
+title = 'York Street Battles #121'
+date = 2026-08-17T21:00:00+10:00
+draft = false
++++
 
 Registration for York Street Battles #121 on September 5th is live now. Click [here](http://start.gg/ysb121) to pre-reg. Get in the final practice before #OHN20 the following week!
 
