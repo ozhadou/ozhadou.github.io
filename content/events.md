@@ -20,7 +20,7 @@ Our monthly event **York Street Battles** runs on the 2nd Saturday of every mont
 | York Street Battles #121 | Sep 05 *** |  [🔗](https://start.gg/ysb121/details) |
 | York Street Battles #122 | Oct 10     |  [🔗](https://start.gg/ysb122/details) |
 | York Street Battles #123 | Nov 14     |  [🔗](https://start.gg/ysb123/details) |
-| York Street Battles #124 | Dec 12     |   |
+| York Street Battles #124 | Dec 12     |  [🔗](https://start.gg/ysb124/details) |
 
 
 You can also follow the StartGG tournament hub: https://www.start.gg/hub/york-street-battles
